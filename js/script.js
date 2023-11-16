@@ -1,7 +1,7 @@
 
 function isElementInView(el) {
     const rect = el.getBoundingClientRect();
-    const threshold = 1;
+    const threshold = 0.5;
 
     return (
         rect.bottom >= 0 &&
@@ -46,14 +46,17 @@ window.addEventListener('scroll', showElementsOnScroll);
 // following green blured bubble
 
 document.addEventListener("DOMContentLoaded", function () {
-    const bubble = document.querySelector(".green-bubble");
+    const bubbles = document.querySelectorAll(".green-bubble");
 
     document.addEventListener("mousemove", function (e) {
         const mouseX = e.clientX;
         const mouseY = e.clientY;
 
-        bubble.style.left = (mouseX - 300) + "px";
-        bubble.style.top = (mouseY - 230) + "px";
+        bubbles.forEach((bubble)=>{
+            bubble.style.left = (mouseX - 300) + "px";
+            bubble.style.top = (mouseY - 230) + "px";
+        })
+
     });
 });
 
