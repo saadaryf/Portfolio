@@ -1,0 +1,66 @@
+
+.fourth-page {
+    border: 0.5px solid #4747479f;
+}
+.fourth-page-content{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+.fourth-page div{
+    background: rgba(169, 169, 169, 0.08);
+}
+.fourth-page-content div{
+    background: #000013;
+    width: 90%;
+    display: grid;
+    margin: 10px auto;
+}
+.fourth-page-content div button{
+    cursor: pointer;
+    background: #000013;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: 1.3em;
+    border-radius: 2px;
+    &:hover {
+        background: rgba(169, 169, 169, 0.11);
+    }
+}
+.fourth-page-content div:nth-child(2) button:nth-child(1){
+    border-bottom: 0.5px solid #4747479f;
+}
+.fourth-page-content div:nth-child(2) button:nth-child(3){
+    border-top: 0.5px solid #4747479f;
+}
+
+.popup-info {
+    height: 450px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    background: #000013f2;
+    z-index: 101;
+    padding: 40px;
+    border-radius: 8px;
+    display: none;
+    font-size: 0.8em;
+}
+.blur-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(169, 169, 169, 0.11); 
+    backdrop-filter: blur(8px);
+    z-index: 100;
+    display: none;
+}

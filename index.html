@@ -3,12 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/first-page.css">
+    <link rel="stylesheet" href="css/left-side.css">
+    <link rel="stylesheet" href="css/right-side.css">
+    <link rel="stylesheet" href="css/second-page.css">
+    <link rel="stylesheet" href="css/third-page.css">
+    <link rel="stylesheet" href="css/fourth-page.css">
+   <!-- <link rel="stylesheet" href="css/fifth-page.css">-->
+    <link rel="stylesheet" href="css/mobiles.css"> 
     <title>Document</title>
 </head>
 
 <body>
+    <!-- qualification popup info box -->
+    <div class="popup-info">
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nobis!</p>
+    </div>
+    <div class="blur-screen"></div>
+     
     <header>
         <nav>
             <ul>
@@ -23,76 +39,135 @@
         </nav>
     </header>
     <main>
-        <div class="left-line">
-            <div class="icon"><img src="img/circle.svg" alt=""></div>
-            <div class="line"></div>
-            <div id="about" class="icon"><img src="img/id-card.svg" alt=""></div>
-            <div class="line "></div>
-            <div id="skills" class="icon"><img src="img/code.svg" alt=""></div>
-            <div class="line "></div>
-        </div>
-        <div class="first-page fade-it">
-            <div class="intro">
-                <h4>Hi,</h4>
-                <h1>I'm Saad Arif</h1>
-                <h6>Software Engineer | Web Developer</h6>
-            </div>
-            <div class="image"><img src="img/coding-man.svg" alt=""></div>
-        </div>
-        <div class="second-page fade-it moving-div">
-            <h3>About</h3>
-            <div class="second-page-content">
-                <div class="green-bubble"></div>
-                <ul>
-                    <li>
-                        <h5>Full Name</h5>
-                        <p>Muhammas Saad Arif Dhillon</p>
-                    </li>
-                    <li>
-                        <h5>Age</h5>
-                        <p>20 years</p>
-                    </li>
-                    <li>
-                        <h5>Date of Birth</h5>
-                        <p>31-Dec-2002</p>
-                    </li>
-                    <li>
-                        <h5>Location</h5>
-                        <p><b>City: </b>Lahore</p>
-                        <p><b>Area: </b>Architect Engineers Housing Society</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="third-page fade-it">
-            <h3>Skills</h3>
-            <div class="third-page-content">
-                <div class="front-end">
-                    <a>Html</a>
-                    <a>CSS</a>
-                    <a>JavaScript</a>
+        <div class="left-side">
+            <div class="left-line">
+                <div class="one-section">
+                    <div class="icon"><img src="img/circle.svg" alt=""></div>
+                    <div class="line"></div>
                 </div>
-                <div class="back-end">
-                    <a>C++</a>
-                    <a>Java</a>
-                    <a>MySQL</a>
+                <div class="one-section">
+                    <div id="about" class="icon"><img src="img/id-card.svg" alt=""></div>
+                    <div class="line "></div>
                 </div>
-                <div class="frameworks">
-                    <a>Spring Boot Java</a>
-                    <a>Laravel-PHP</a>
+                <div class="one-section">
+                    <div id="skills" class="icon"><img src="img/code.svg" alt=""></div>
+                    <div class="line "></div>
                 </div>
-                <div class="others">
-                    <a>Azure Services</a>
-                    <a>Docker</a>
+                <div class="one-section">
+                    <div id="skills" class="icon"><img src="img/book-bookmark.svg" alt=""></div>
+                    <div class="line "></div>
                 </div>
             </div>
         </div>
-        <div class="fourth-page">
-
+        <div class="right-side">
+            <div class="first-page fade-it">
+                <div class="intro">
+                    <h4>Hi,</h4>
+                    <h1>I'm Saad Arif</h1>
+                    <h6>Software Engineer | Web Developer</h6>
+                    <div class="buttons">
+                        <a href="">Download-CV</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+                <div class="image"><img src="img/coding-man.svg" alt=""></div>
+            </div>
+            <div class="second-page fade-it moving-div">
+                <h3>About</h3>
+                <div class="second-page-content">
+                    <div class="green-bubble"></div>
+                    <ul>
+                        <li>
+                            <h5>Full Name</h5>
+                            <p>Muhammad Saad Arif Dhillon</p>
+                        </li>
+                        <li>
+                            <h5>Age</h5>
+                            <p>20 years</p>
+                        </li>
+                        <li>
+                            <h5>Date of Birth</h5>
+                            <p>31-Dec-2002</p>
+                        </li>
+                        <li>
+                            <h5>Location</h5>
+                            <p><b>City: </b>Lahore</p>
+                            <p><b>Area: </b>Architect Engineers Housing Society</p>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="third-page fade-it">
+                <h3>Skills</h3>
+                <div class="third-page-content">
+                    <div>
+                        <a>Html</a>
+                        <a>CSS</a>
+                        <a>JavaScript</a>
+                    </div>
+                    <div>
+                        <a>C++</a>
+                        <a>Java</a>
+                        <a>MySQL</a>
+                    </div>
+                    <div>
+                        <a>Spring Boot Java</a>
+                        <a>Laravel-PHP</a>
+                    </div>
+                    <div>
+                        <a>Azure Services</a>
+                        <a>Docker</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth-page fade-it">
+                 <h3>Qualifications</h3>
+                 <div class="fourth-page-content">
+                    <div>
+                        <button id="internship">Internship</button>
+                    </div>
+                    <div>
+                        <button id="university">University</button>
+                        <button id="college">College</button>
+                        <button id="school">School</button>
+                    </div>
+                 </div>
+               <!-- <div class="fourth-page-content">
+                    <div class="experience">
+                        <div>
+                            <p>Intern</p>
+                            <b>Punjab Information Technology Board(PITB)</b>
+                            <p>Spring Boot Java</p>
+                            <p>August 2023 - September 2023</p>
+                        </div>
+                    </div>
+                    <div class="education">
+                        <div>
+                            <p>Student</p>
+                            <b>University of Central Punjab(UCP)-Lahore</b>
+                            <p>BS Software Engineering</p>
+                            <p>Octuber 2020 - Octuber 2024</p>
+                        </div>
+                        <div>
+                            <p>Student</p>
+                            <b>Punjab College of Sciences-Gujranwala</b>
+                            <p>F.Sc pre-Engineering</p>
+                            <p>April 2018 - April 2019</p>
+                        </div>
+                        <div>
+                            <p>Student</p>
+                            <b>Jadeed Dastgir Ideal High School-GRW (PCC)</b>
+                            <p>Matriculation</p>
+                            <p>March 2016 - March 2018</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
         </div>
     </main>
 
     <script src="js/script.js"></script>
+    <script src="js/popup.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </body>
 

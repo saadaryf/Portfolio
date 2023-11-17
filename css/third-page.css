@@ -1,0 +1,38 @@
+
+
+.third-page {
+    display: flex;
+    border: 0.5px solid #4747479f;
+}
+.third-page-content {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3vw;
+}
+.third-page-content div {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1vw;
+}
+.third-page-content div a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 0.8em;
+    border: 0.5px solid #4747479f;
+    text-decoration: none;
+    cursor: default;
+    background: rgba(169, 169, 169, 0.08);
+
+    &:hover {
+        background: rgba(169, 169, 169, 0.11);
+    }
+}

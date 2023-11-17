@@ -1,0 +1,56 @@
+.second-page {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #4747479f;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(5px);
+    z-index: 5;
+}
+
+.second-page-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.green-bubble {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background: green;
+    opacity: 0;
+    border-radius: 50%;
+    filter: blur(80px);
+    transition: all 0.3s ease-out;
+}
+
+@media only screen and (min-width: 960px) {
+    .second-page:hover .green-bubble {
+        opacity: 0.15;
+    }
+}
+.second-page h5 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+.second-page ul {
+    position: relative;
+    filter: none !important;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 5;
+}
+.second-page ul p {
+    padding-top: 5px;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: #ddd;
+}
+.second-page ul li {
+    padding: 30px 0;
+}

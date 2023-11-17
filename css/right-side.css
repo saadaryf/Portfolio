@@ -1,0 +1,40 @@
+.right-side {
+    position: relative;
+    width: 90%;
+    display: grid;
+}
+.right-side .first-page,
+.right-side .second-page,
+.right-side .third-page,
+.right-side .fourth-page{
+    position: relative;
+    border-radius: 13px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: calc(75vh - 70px);
+    width: 97%;
+    margin-right: auto;
+    transition: opacity 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+.fourth-page h3,
+.third-page h3,
+.second-page h3 {
+    position: absolute;
+    top: 0;
+    left: 12%;
+    color: rgb(255, 0, 255);
+    transform: translate(-50%, -70%);
+    overflow: visible !important;
+    z-index: 0 !important;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.8em;
+}
+.third-page h3 {
+    color: rgb(51, 152, 219);
+}
+.fourth-page h3{
+    color: rgb(51, 219, 82);
+    left: 22%;
+}

@@ -1,0 +1,79 @@
+.first-page{
+    display: flex;
+}
+.intro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 50%;
+}
+.intro h4 {
+    font-size: 1.3em;
+    margin: 0 0 0 5%;
+    font-weight: 100;
+}
+.intro h1 {
+    font-size: 2.5em;
+}
+.intro h6 {
+    font-size: 0.6em;
+    margin: 0 10%;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: gray;
+}
+.image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    height: 100%;
+    box-sizing: border-box;
+    width: 50%;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+.image::before {
+    content: '';
+    width: 70%;
+    height: 70%;
+    background: purple;
+    opacity: 0.3;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+}
+.image img {
+    width: 80%;
+    min-width: 250px;
+    z-index: 2;
+} 
+.first-page .buttons{
+    margin-left: auto;
+    margin-top: 40px;
+    font-size: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.first-page .buttons a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0.5px solid #ddd;
+    padding: 18px;
+    margin-right: 6px;
+    text-align: center;
+    &:hover{
+        border: 0.5px solid rgb(192, 191, 191);
+        color: rgb(192, 191, 191);
+    }
+}
