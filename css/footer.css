@@ -68,3 +68,33 @@ footer {
 .footer-content div:nth-child(1) a:nth-child(1) img{
     margin-left: 2px;
 }
+.credit a {
+    cursor: pointer;
+}
+.credit-popup {
+    position: absolute;
+    background: #ddd;
+    border: 1px solid;
+    bottom: 65px;
+    padding: 0 !important;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    border-radius: 4px;
+}
+.credit{
+    width: fit-content;
+}
+.credit:hover .credit-popup {
+    opacity: 1;
+    pointer-events: auto;
+}
+.credit-popup a {
+    background: transparent !important;
+    &:hover {
+        text-decoration: underline !important;
+        color: #000;
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
