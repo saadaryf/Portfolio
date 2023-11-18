@@ -66,13 +66,10 @@
     .sixth-page-content{
         padding: 50px 10px;
     }
-    /*
-    .third-page{
-        width: calc(100% - 15%);
+    .seventh-page-content{
+        padding: 5px;
     }
-
-    .left-line {
-        left: -5px;
+    .footer-content {
+        flex-direction: column;
     }
-    */
 }

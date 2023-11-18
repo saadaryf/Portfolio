@@ -15,10 +15,11 @@
     margin-top: 50px;
     margin-bottom: 20px;
     height: calc(75vh - 70px);
-    width: 97%;
+    width: 90%;
     margin-right: auto;
     transition: opacity 0.5s ease-in-out;
     box-sizing: border-box;
+    min-height: 500px;
 }
 .seventh-page h3,
 .sixth-page h3,
@@ -55,4 +56,5 @@
 }
 .seventh-page h3{
     color: rgb(219, 51, 132);
+    left: 27%;
 }

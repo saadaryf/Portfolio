@@ -1,5 +1,5 @@
 .sixth-page{
-    border: 0.5px solid #4747479f;
+    border-top: 0.5px solid #4747479f;
     display: grid;
 }
 .sixth-page-content{
@@ -19,7 +19,7 @@
 .sixth-page-content div{
     background: rgba(169, 169, 169, 0.08);
     width: 100%;
-    min-width: 300px;
+    min-width: 200px;
     text-align: center;
     border-radius: 5px;
 }

@@ -1,7 +1,66 @@
-footer{
-    height: 30vh;
+footer {
     width: 97%;
     margin: auto;
     margin-top: 50px;
     border-top: 0.5px solid #4747479f;
+    display: flex;
+    padding: 30px;
+}
+
+.earth-image {
+    box-shadow: inset 0 0 30px rgba(0, 0, 255, 0.2), 0 0 50px rgba(0, 0, 255, 0.2);
+    overflow: hidden;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.earth-image img {
+    box-sizing: border-box;
+    width: 100%;
+    animation: rotateEarth 20s linear infinite;
+    transform-origin: center center;
+}
+
+@keyframes rotateEarth {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.footer-content {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4%;
+    font-size: 0.6em;
+    color: #fff;
+}
+.footer-content div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-content a{
+    color: gray;
+    text-decoration: none;
+    &:hover{
+        color: #ffffffba;
+        text-decoration: underline;
+    }
+}
+.footer-content div:nth-child(1) a{
+    text-decoration: none;
+    border: 1px solid #ddd;
+    display: grid;
+    border-radius: 50%;
+    padding: 8px;
+    &:hover{
+        background: #474747d8;
+    }
+}
+.footer-content div:nth-child(1) a:nth-child(1) img{
+    margin-left: 2px;
 }
