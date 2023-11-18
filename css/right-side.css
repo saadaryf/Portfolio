@@ -7,7 +7,8 @@
 .right-side .second-page,
 .right-side .third-page,
 .right-side .fourth-page,
-.right-side .fifth-page{
+.right-side .fifth-page,
+.right-side .sixth-page{
     position: relative;
     border-radius: 13px;
     margin-top: 50px;
@@ -18,6 +19,7 @@
     transition: opacity 0.5s ease-in-out;
     box-sizing: border-box;
 }
+.sixth-page h3,
 .fifth-page h3,
 .fourth-page h3,
 .third-page h3,
@@ -40,7 +42,11 @@
     color: rgb(51, 219, 82);
     left: 22%;
 }
+.sixth-page h3,
 .fifth-page h3{
     left: 17%;
     color: rgb(211, 219, 51);
+}
+.sixth-page h3{
+    color: rgb(51, 202, 219);
 }

@@ -1,0 +1,32 @@
+.sixth-page{
+    border: 0.5px solid #4747479f;
+    display: grid;
+}
+.sixth-page-content{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    box-sizing: border-box;
+    gap: 1vw;
+    overflow-y: auto;
+}
+.sixth-page-content h5{
+    font-size: 1.2em;
+}
+.sixth-page-content div{
+    background: rgba(169, 169, 169, 0.08);
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+.sixth-page-content p{
+    font-size: 0.7em;
+    color: #ddd;
+}
+.sixth-page-content div img{
+    margin-top: 30px;
+}

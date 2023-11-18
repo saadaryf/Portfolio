@@ -44,51 +44,37 @@
     width: 13px !important;
     margin-top: 25px;
 }
-.left-line .one-section:nth-child(1) .icon::before {
+.left-line .one-section .icon::before{
     content: '';
-    width: 15px;
-    height: 15px;
+    width: 35px;
+    height: 35px;
     background: gray;
-    opacity: 0.2;
-    filter: blur(10px);
+    opacity: 0.7;
+    filter: blur(25px);
     position: absolute;
+    transition: opacity 0.3s ease-in;
+}
+.left-line .one-section:nth-child(1) .icon::before  {
+    width: 20px;
+    height: 20px;
 }
 .left-line .one-section:nth-child(2) .icon::before  {
-    content: '';
-    width: 30px;
-    height: 30px;
     background: rgb(255, 0, 255);
-    opacity: 0.6;
-    filter: blur(20px);
-    position: absolute;
 }
 .left-line .one-section:nth-child(3) .icon::before {
-    content: '';
-    width: 30px;
-    height: 30px;
     background: rgb(51, 152, 219);
-    opacity: 0.6;
-    filter: blur(20px);
-    position: absolute;
 }
 .left-line .one-section:nth-child(4) .icon::before {
-    content: '';
-    width: 30px;
-    height: 30px;
     background: rgb(51, 219, 82);
-    opacity: 0.6;
-    filter: blur(20px);
-    position: absolute;
 }
 .left-line .one-section:nth-child(5) .icon::before {
-    content: '';
-    width: 30px;
-    height: 30px;
     background: rgb(211, 219, 51);
-    opacity: 0.6;
-    filter: blur(20px);
-    position: absolute;
 }
+.left-line .one-section:nth-child(6) .icon::before {
+    background: rgb(51, 202, 219);
+}
+
+
 .left-line .one-section:nth-child(1) .line {
     background: linear-gradient(to bottom, #111, rgb(255, 0, 255));
 }
@@ -103,4 +89,7 @@
 }
 .left-line .one-section:nth-child(5) .line {
     background: linear-gradient(to bottom, rgb(211, 219, 51), rgb(51, 202, 219));
+}
+.left-line .one-section:nth-child(6) .line {
+    background: linear-gradient(to bottom, rgb(51, 202, 219), rgb(219, 51, 132));
 }
