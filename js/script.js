@@ -63,3 +63,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+// down arrow
+const downArrow = document.querySelector(".down-arrow");
+
+document.addEventListener("scroll", function(){
+    const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+    if (scrollPosition > 50) {
+        downArrow.style.display = 'none';
+    } else {
+        downArrow.style.display = 'block';
+    }
+});

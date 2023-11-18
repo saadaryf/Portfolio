@@ -79,3 +79,13 @@
         color: rgb(192, 191, 191);
     }
 }
+.down-arrow{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    display: block;
+}
+.down-arrow img{
+    width: 40px;
+}

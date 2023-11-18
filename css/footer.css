@@ -43,7 +43,7 @@ footer {
 .footer-content div{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1vw;
 }
 .footer-content a{
     color: gray;

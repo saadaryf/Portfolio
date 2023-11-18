@@ -27,6 +27,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    } 
+    nav ul li a:hover {
+        background: rgba(38, 38, 38, 0.882);
     }
     main{
         margin-top: 50px;
