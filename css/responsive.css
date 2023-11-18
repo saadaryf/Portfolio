@@ -102,5 +102,6 @@
     }
     .footer-content {
         flex-direction: column;
+        width: 80%;
     }
 }
