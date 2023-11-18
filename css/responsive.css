@@ -1,107 +1,141 @@
-
 @media only screen and (max-width: 960px) {
     body {
         font-size: 15px;
     }
-    header{
+
+    header {
         display: none;
         height: 100%;
         background: #111111e1;
         font-size: 1.5em;
     }
-    nav{
+
+    nav {
         width: 100%;
         height: 100%;
     }
-    nav ul{
+
+    nav ul {
         position: relative;
         height: 100%;
     }
+
     nav ul li {
         grid-template-columns: repeat(1, 1fr);
         height: 100%;
     }
+
     nav ul li a {
         border-right: 0;
         border-bottom: 0.5px solid #474747b5;
         display: flex;
         align-items: center;
         justify-content: center;
-    } 
+    }
+
     nav ul li a:hover {
         background: rgba(38, 38, 38, 0.882);
     }
-    main{
+
+    main {
         margin-top: 50px;
     }
-    .hamburger{
+
+    .hamburger {
         display: block;
     }
-    .first-page{
+
+    .first-page {
         flex-direction: column;
     }
-    .intro{
+
+    .intro {
         width: 100%;
         height: 50%;
     }
-    .image{
+
+    .image {
         width: 100%;
         height: 50%;
     }
-    .second-page-content{
+
+    .second-page-content {
         padding: 15px;
     }
+
     .second-page ul {
         grid-template-columns: 1fr;
     }
+
     .seventh-page h3,
     .sixth-page h3,
-    .fifth-page h3{
+    .fifth-page h3 {
         left: 29%;
     }
+
     .third-page h3,
     .second-page h3 {
         left: 25%;
     }
-    .fourth-page h3{
+
+    .fourth-page h3 {
         left: 42%;
     }
+
     .third-page-content {
         grid-template-columns: 1fr 1fr;
         padding: 14px;
-    } 
-    .fourth-page-content{
+    }
+
+    .fourth-page-content {
         grid-template-columns: 1fr;
         padding: 5px;
     }
-    .fourth-page-content div:nth-child(1) button:nth-child(1){
+
+    .fourth-page-content div:nth-child(1) button:nth-child(1) {
         border-bottom: 0.5px solid #4747479f;
     }
-    .popup-info{
+
+    .popup-info {
         width: 70vw;
         height: 350px;
     }
+
     .blur-screen {
-        background: rgba(30, 30, 30, 0.9); 
+        background: rgba(30, 30, 30, 0.9);
     }
-    .fifth-page-content{
+
+    .fifth-page-content {
         grid-template-columns: 1fr;
         padding: 14px;
     }
-    .fifth-page-content span{
+
+    .fifth-page-content span {
         font-size: 0.7em;
     }
-    .sixth-page-content{
+
+    .sixth-page-content {
         padding: 50px 10px;
     }
-    .seventh-page-content{
+
+    .seventh-page-content {
         padding: 5px;
     }
-    form{
+
+    form {
         width: 70%;
+    }
+    footer{
+        width: 89%;
+        justify-content: space-between;
     }
     .footer-content {
         flex-direction: column;
         width: 80%;
     }
+    .earth-image {
+        width: 20%;
+        box-shadow: inset 0 0 20px rgba(0, 0, 255, 0.3), -10px 0 20px rgba(0, 0, 255, 0.2);
+    }
+    
 }

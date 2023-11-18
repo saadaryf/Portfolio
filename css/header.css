@@ -35,34 +35,3 @@ nav ul li a {
 nav ul li a:nth-last-child(1) {
     border: 0;
 }
-
-nav ul li a:nth-child(2){
-    &:focus{
-        color: rgb(255, 0, 255);
-    }
-}
-nav ul li a:nth-child(3){
-    &:focus{
-        color: rgb(51, 152, 219);
-    }
-}
-nav ul li a:nth-child(4){
-    &:focus{
-        color: rgb(51, 219, 82);
-    }
-}
-nav ul li a:nth-child(5){
-    &:focus{
-        color: rgb(211, 219, 51);
-    }
-}
-nav ul li a:nth-child(6){
-    &:focus{
-        color: rgb(51, 202, 219);
-    }
-}
-nav ul li a:nth-child(7){
-    &:focus{
-        color: rgb(219, 51, 132);
-    }
-}
