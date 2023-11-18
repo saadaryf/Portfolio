@@ -73,10 +73,13 @@
 .left-line .one-section:nth-child(6) .icon::before {
     background: rgb(51, 202, 219);
 }
+.left-line .one-section:nth-child(7) .icon::before {
+    background: rgb(219, 51, 132);
+}
 
 
 .left-line .one-section:nth-child(1) .line {
-    background: linear-gradient(to bottom, #111, rgb(255, 0, 255));
+    background: linear-gradient(to bottom, #000013, rgb(255, 0, 255));
 }
 .left-line .one-section:nth-child(2) .line {
     background: linear-gradient(to bottom, rgb(255, 0, 255), rgb(51, 152, 219));
@@ -92,4 +95,7 @@
 }
 .left-line .one-section:nth-child(6) .line {
     background: linear-gradient(to bottom, rgb(51, 202, 219), rgb(219, 51, 132));
+}
+.left-line .one-section:nth-child(7) .line {
+    background: linear-gradient(to bottom, rgb(219, 51, 132), #000013);
 }

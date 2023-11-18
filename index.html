@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/fourth-page.css">
     <link rel="stylesheet" href="css/fifth-page.css">
     <link rel="stylesheet" href="css/sixth-page.css">
+    <link rel="stylesheet" href="css/seventh-page.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/mobiles.css">
     <title>Document</title>
 </head>
@@ -34,7 +36,7 @@
                     <a href="#about">About</a>
                     <a href="#skills">Skills</a>
                     <a href="#">Resume</a>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -55,15 +57,19 @@
                     <div class="line "></div>
                 </div>
                 <div class="one-section">
-                    <div id="skills" class="icon"><img src="img/book-bookmark.svg" alt=""></div>
+                    <div class="icon"><img src="img/book-bookmark.svg" alt=""></div>
                     <div class="line "></div>
                 </div>
                 <div class="one-section">
-                    <div id="skills" class="icon"><img src="img/file-code.svg" alt=""></div>
+                    <div class="icon"><img src="img/file-code.svg" alt=""></div>
                     <div class="line "></div>
                 </div>
                 <div class="one-section">
-                    <div id="skills" class="icon"><img src="img/services.svg" alt=""></div>
+                    <div class="icon"><img src="img/services.svg" alt=""></div>
+                    <div class="line "></div>
+                </div>
+                <div class="one-section">
+                    <div id="contact" class="icon"><img src="img/phone.svg" alt=""></div>
                     <div class="line "></div>
                 </div>
             </div>
@@ -170,7 +176,7 @@
                     </a>
                 </div>
             </div>
-            <div class="sixth-page">
+            <div class="sixth-page fade-it">
                 <h3>Services</h3>
                 <div class="sixth-page-content">
                     <div class="service">
@@ -194,12 +200,25 @@
                     </div>
                 </div>
             </div>
+            <div class="seventh-page">
+                <h3>Contact</h3>
+                <div class="seventh-page-content">
+                    <form action="https://formspree.io/f/xwkdypyn" method="POST">
+                        <input type="text" name="name" placeholder="Name" required /><br />
+                        <input type="email" name="email" placeholder="Email" /><br />
+                        <input type="text" name="subject" placeholder="Subject" required /><br />
+                        <textarea name="message" rows="3" placeholder="Message / FeedBack"></textarea><br>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </main>
+    <footer>
 
+    </footer>
     <script src="js/script.js"></script>
     <script src="js/popup.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </body>
 
 </html>

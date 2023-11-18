@@ -1,0 +1,51 @@
+.seventh-page{
+    border: 0.5px solid #4747479f;
+}
+.seventh-page-content{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+form {
+    position: relative;
+    margin: auto;
+    width: 40%;
+    min-width: 300px;
+}
+form textarea,
+form input,
+form button {
+    position: relative;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 40px 0px 0px;
+    line-height: 40px;
+    border-bottom: 0.5px solid #474747f9;
+    background: transparent;
+    outline: none;
+    box-sizing: border-box;
+}
+form textarea:focus,
+form input:focus {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient( rgb(219, 51, 132), rgba(219, 51, 132, 0.591));
+    border-image-slice: 0.5;
+}
+form button {
+    position: relative;
+    cursor: pointer;
+    padding: 15px 0px;
+    background: black;
+    text-transform: uppercase;
+    margin-top: 15px;
+    border-radius: 2px;
+    color: white;
+    box-sizing: border-box;
+    border-bottom: 0px;
+}
+form button:hover {
+    background: rgb(48, 47, 47);
+}
