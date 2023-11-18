@@ -38,7 +38,7 @@ form input:focus {
 form button {
     position: relative;
     cursor: pointer;
-    background: black;
+    background: #4747479f;
     text-transform: uppercase;
     margin-top: 15px;
     border-radius: 2px;
@@ -48,5 +48,5 @@ form button {
     border-bottom: 0px;
 }
 form button:hover {
-    background: rgb(48, 47, 47);
+    background: #474747ef;
 }

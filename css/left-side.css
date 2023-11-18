@@ -13,11 +13,10 @@
     margin: auto;
 }
 .one-section{
-    height: 75vh;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 500px;
 }
 .line {
     position: relative;
