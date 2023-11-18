@@ -6,10 +6,9 @@ header {
     font-size: 12px;
     width: 98%;
     top: 0;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
     background: #11111139;
     backdrop-filter: blur(5px);
+    box-sizing: border-box;
 }
 
 nav ul li {
