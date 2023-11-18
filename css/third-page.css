@@ -2,7 +2,7 @@
 
 .third-page {
     display: flex;
-    border-top: 0.5px solid #4747479f;
+    border: 0.5px solid #4747479f;
 }
 .third-page-content {
     overflow: hidden;
