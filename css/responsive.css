@@ -69,6 +69,9 @@
     .seventh-page-content{
         padding: 5px;
     }
+    form{
+        width: 70%;
+    }
     .footer-content {
         flex-direction: column;
     }

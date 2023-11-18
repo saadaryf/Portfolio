@@ -22,6 +22,9 @@
     min-width: 200px;
     text-align: center;
     border-radius: 5px;
+    &:hover {
+        background: rgba(169, 169, 169, 0.11);
+    }
 }
 .sixth-page-content p{
     font-size: 0.7em;

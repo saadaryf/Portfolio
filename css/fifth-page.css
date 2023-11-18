@@ -19,6 +19,10 @@
     text-decoration: none;
     color: #fff;
     border-radius: 5px;
+    &:hover{
+        background: #000013;
+        border: 0.1px solid #4747479f;
+    }
 }
 .fifth-page-content span{
     color: rgb(161, 160, 160);

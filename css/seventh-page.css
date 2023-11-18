@@ -12,7 +12,6 @@ form {
     position: relative;
     margin: auto;
     width: 40%;
-    min-width: 200px;
     padding: 10px;
 }
 form textarea,

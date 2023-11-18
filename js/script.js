@@ -17,9 +17,9 @@ function showElementsOnScroll() {
 
     lines.forEach((line) => {
         if (isElementInView(line)) {
-            line.style.opacity = '1';
+            line.style.opacity = 1;
         } else {
-            line.style.opacity = '0';
+            line.style.opacity = 0;
         }
     })
     icons.forEach((icon) => {
@@ -32,10 +32,13 @@ function showElementsOnScroll() {
     fadingElements.forEach((fadeEl) => {
         if (isElementInView(fadeEl)) {
             fadeEl.style.opacity = 1;
+            fadeEl.style.pointerEvents = 'auto';
         } else {
             fadeEl.style.opacity = 0;
+            fadeEl.style.pointerEvents = 'none';
         }
-    })
+    });
+    
 }
 
 document.addEventListener('DOMContentLoaded', showElementsOnScroll);
