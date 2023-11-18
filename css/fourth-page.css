@@ -51,7 +51,19 @@
     padding: 40px;
     border-radius: 8px;
     display: none;
-    font-size: 0.8em;
+    font-size: 0.7em;
+}
+.popup-info b{
+    font-size: 1em;
+}
+.popup-info p{
+    color: #ddd;
+}
+#close-btn{
+    cursor: pointer;
+    &:hover{
+        color: gray;
+    }
 }
 .blur-screen {
     position: fixed;

@@ -7,6 +7,9 @@
     header{
         display: none;
     }
+    main{
+        margin-top: 50px;
+    }
     .first-page{
         flex-direction: column;
     }
@@ -24,17 +27,20 @@
     .second-page ul {
         grid-template-columns: 1fr;
     }
+    .fifth-page h3{
+        left: 29%;
+    }
     .third-page h3,
     .second-page h3 {
         left: 25%;
+    }
+    .fourth-page h3{
+        left: 42%;
     }
     .third-page-content {
         grid-template-columns: 1fr 1fr;
         padding: 14px;
     } 
-    .fourth-page h3{
-        left: 45%;
-    }
     .fourth-page-content{
         grid-template-columns: 1fr;
         padding: 5px;
@@ -48,6 +54,13 @@
     }
     .blur-screen {
         background: rgba(30, 30, 30, 0.9); 
+    }
+    .fifth-page-content{
+        grid-template-columns: 1fr;
+        padding: 14px;
+    }
+    .fifth-page-content span{
+        font-size: 0.7em;
     }
     /*
     .third-page{

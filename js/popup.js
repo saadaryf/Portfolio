@@ -17,25 +17,29 @@ let isHidden = true;
 internshoipBtn.addEventListener('click', function () {
     if (isHidden) {
         popupDiv.innerHTML = `
-            <p>Intern</p>
-            <b>Punjab Information Technology Board(PITB)</b>
-            <p>Spring Boot Java</p>
-            <p>August 2023 - September 2023</p>
+        <b>Punjab Information Technology Board(PITB)</b>
+        <p>Intern</p>
+        <p>Spring Boot Java</p>
+        <p>August 2023 - September 2023</p><br>
+        <b>Skills Learned</b>
+        <p>Web Based Applications Development, Spring Boot Java</p><br><br>
         `;
         popupDiv.style.display = 'block';
         blurDiv.style.display = 'block'
         isHidden = false;
     } else {
-        popupDiv.style.display = 'none';    
+        popupDiv.style.display = 'none';
     }
 })
 universityBtn.addEventListener('click', function () {
     if (isHidden) {
         popupDiv.innerHTML = `
-        <p>Student</p>
         <b>University of Central Punjab(UCP)-Lahore</b>
+        <p>Student</p>
         <p>BS Software Engineering</p>
-        <p>Octuber 2020 - Octuber 2024</p>
+        <p>Octuber 2020 - Octuber 2024</p><br>
+        <b>Skills Learned</b>
+        <p>Coding, Web-Development, Presentations, Team-Working</p><br><br>
         `;
         popupDiv.style.display = 'block';
         blurDiv.style.display = 'block'
@@ -47,10 +51,12 @@ universityBtn.addEventListener('click', function () {
 collegeBtn.addEventListener('click', function () {
     if (isHidden) {
         popupDiv.innerHTML = `
-        <p>Student</p>
         <b>Punjab College of Sciences-Gujranwala</b>
+        <p>Student</p>
         <p>F.Sc pre-Engineering</p>
-        <p>April 2018 - April 2019</p>
+        <p>April 2018 - April 2019</p><br>
+        <b>Skills Learned</b>
+        <p>Advance Maths, Problem Solving, Time-Management</p><br><br>
         `;
         popupDiv.style.display = 'block';
         blurDiv.style.display = 'block'
@@ -62,10 +68,12 @@ collegeBtn.addEventListener('click', function () {
 schoolBtn.addEventListener('click', function () {
     if (isHidden) {
         popupDiv.innerHTML = `
-        <p>Student</p>
         <b>Jadeed Dastgir Ideal High School-GRW (PCC)</b>
+        <p>Student</p>
         <p>Matriculation</p>
-        <p>March 2016 - March 2018</p>
+        <p>March 2016 - March 2018</p><br>
+        <b>Skills Gained</b>
+        <p>Learning, Social, Sports</p><br><br>
         `;
         popupDiv.style.display = 'block';
         blurDiv.style.display = 'block'
