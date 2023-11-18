@@ -27,9 +27,12 @@ nav ul li a {
     padding: 5px;
     transition: 0.2s ease;
     text-align: center;
-    border: 1px solid red;
+    border-right: 0.5px solid #4747479f;
 
     &:hover {
         color: rgb(192, 191, 191);
     }
+}
+nav ul li a:nth-last-child(1) {
+    border: 0;
 }
