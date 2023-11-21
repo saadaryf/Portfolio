@@ -15,17 +15,16 @@
     overflow: hidden;
     padding: 50px;
     box-sizing: border-box;
-    /* font-family: 'Source Code Pro', monospace; */
 }
 
 .green-bubble {
     position: absolute;
     height: 250px;
     width: 250px;
-    background: green;
+    background: rgb(255, 0, 255);
     opacity: 0;
     border-radius: 50%;
-    filter: blur(80px);
+    filter: blur(100px);
     transition: all 0.3s ease-out;
 }
 
