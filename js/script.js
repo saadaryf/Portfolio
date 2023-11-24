@@ -1,7 +1,7 @@
 
 function isElementInView(el) {
     const rect = el.getBoundingClientRect();
-    const threshold = 0.5;
+    const threshold = 0.8;
 
     return (
         rect.bottom >= 0 &&
